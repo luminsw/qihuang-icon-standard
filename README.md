@@ -30,11 +30,20 @@
 
 ## 安装
 
+从 GitHub（public，无需凭据）：
+
+```
+plugin_manager { action: "install_bundle", target: "github:luminsw/qihuang-icon-standard" }
+```
+
+本机开发用本地目录：
+
 ```
 plugin_manager { action: "install_bundle", target: "C:/Users/lumin/game/dsh-plugins/icon-standard" }
 ```
 
-安装后插件行 id 为 `icon-standard`，可随时 `set_plugin` 停用。
+安装后插件行 id 为 `icon-standard`，可随时 `set_plugin` 停用。也可以直接装聚合包
+[luminsw/dsh-plugins](https://github.com/luminsw/dsh-plugins)，一次装齐六个插件。
 
 ## 用法
 
