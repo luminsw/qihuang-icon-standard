@@ -1,5 +1,5 @@
 /**
- * `@local/icon-standard` — makes one-shot icon work possible.
+ * `@luminsw/icon-standard` — makes one-shot icon work possible.
  *
  * The standard is carried three ways, because knowledge alone regresses:
  * a skill body for the rules, an `icon_blueprint` tool for the exact numbers and
