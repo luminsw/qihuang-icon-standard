@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Icon standard",
+    "description": "Designs app, launcher, favicon, and PWA icons inside the real platform safe zones, then verifies them pixel by pixel."
+  }
+}

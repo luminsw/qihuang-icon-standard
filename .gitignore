@@ -1,0 +1,13 @@
+# 渲染临时文件
+.render-*.html
+
+# 编辑/修复过程的备份
+*.bak
+*.bak-*
+*.orig
+*.rej
+
+# 依赖与产物
+node_modules/
+*.log
+.DS_Store

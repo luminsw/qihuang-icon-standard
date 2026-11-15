@@ -1,0 +1,4 @@
+- insert:
+    - id: icon-standard
+      name: '@local/icon-standard'
+      config: {}

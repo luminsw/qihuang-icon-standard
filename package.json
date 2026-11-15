@@ -1,0 +1,25 @@
+{
+  "name": "@local/icon-standard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "三端图标设计标准：精确几何、渲染脚本、逐像素审校",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "assets/*.md",
+    "locale/*.json",
+    "icon.svg",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
