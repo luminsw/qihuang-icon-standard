@@ -21,5 +21,8 @@
     "bundle": {
       "patch": "./cordis.patch.yml"
     }
+  },
+  "scripts": {
+    "check:schema": "node ../../../src/dsh-plugin-schema-check/cli.mjs ."
   }
 }
